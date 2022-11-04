@@ -26,6 +26,20 @@ git reset HEAD^
 Tout annuler et supprimer les ficchier
 git reset --hard HEAD^
 
-
 renommer le message du dernier commit (NB: le faire avant de partager)
 git commit --amend
+
+
+*************GITHUB*************
+
+Ajouter un remote à notre dépôt local afin de le lier avec un dépôt distant :
+git remote add origin <url_repository>
+
+Vérifier que notre dépôt local est bien lié à un dépôt distant :
+git remote -v
+
+Pousser la branche master sur le repository distant origin :
+git push origin master
+
+cloner un dépôt distant sur votre poste de travail :
+git clone <url_repository>
