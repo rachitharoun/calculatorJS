@@ -1,0 +1,12 @@
+git status // Obtenir l'état du staging de Git.
+git log --oneline // Obtenir l'état de l'historique de Git.
+git add file.txt
+git commit -m "<message_de_commit>"
+git restore --staged file.txt 	---> garde les modif du ficchier
+git restore file.txt 	---> garde les modif du ficchier
+
+
+La commande suivante permet d’annuler le dernier commit présent dans votre historique Git :
+reset soft qui est deja commint
+
+git reset HEAD^
