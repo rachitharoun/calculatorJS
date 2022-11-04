@@ -10,3 +10,7 @@ La commande suivante permet d’annuler le dernier commit présent dans votre hi
 reset soft qui est deja commint
 
 git reset HEAD^
+
+Tout annuler et supprimer les ficchier
+
+git reset --hard HEAD^
